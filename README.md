@@ -1,2 +1,24 @@
-# hvc051-grid-assault
-HVC-051 GRID ASSAULT: playable browser game and NES ROM
+# HVC-051 GRID ASSAULT
+
+HVC-051通信コントローラーの区画キーで敵を倒す、ファミコン用の3Dダンジョンゲームです。
+
+- [ブラウザで遊ぶ](https://ric-op2.github.io/hvc051-grid-assault/)
+- [NESファイルをダウンロード](https://github.com/ric-op2/hvc051-grid-assault/raw/refs/heads/main/hvc-grid-fps.nes)
+- オフラインでは index.html を保存してブラウザで開けます。端末によってローカルファイルの扱いが異なります。
+
+## 操作
+
+画面上のコントローラーで操作できます。Aで開始・扉操作・はしご移動。矢印で前後移動と旋回。B＋左右で横移動。敵の映る区画と同じ配置のテンキーで攻撃します。
+
+地下5階から地下1階まで、各階の敵をすべて倒してはしごを登り、地上を目指します。各階の迷宮はランダムです。スケルトンとナイトには歩行・剣攻撃のモーションがあります。
+
+## 配布物
+
+- index.html: ROMとJSNESを内包したブラウザ版。
+- hvc-grid-fps.nes: Mapper 4対応のNES ROM。HVC-051入力に対応した環境が必要です。
+
+ブラウザ版はエミュレーター上での動作です。物理Android端末・ファミコン実機での動作確認を意味しません。現在のゲームは無音です。
+
+## ライセンス表記
+
+ブラウザ版に含むJSNESの著作権・Apache 2.0ライセンス表記はindex.html内に保持しています。このリポジトリのゲーム自体に新たなライセンスは付与していません。
